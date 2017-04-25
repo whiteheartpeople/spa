@@ -1,0 +1,6 @@
+CREATE TABLE `config_master` (
+  `id` int(10) DEFAULT NULL,
+  `config_param_name` varchar(100) DEFAULT NULL,
+  `config_param_val` varchar(100) DEFAULT NULL,
+  `status` int(10) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

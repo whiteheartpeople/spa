@@ -1,0 +1,6 @@
+CREATE TABLE `user_outlet_mapping` (
+  `id` int(10) DEFAULT NULL,
+  `user_id` int(10) DEFAULT NULL,
+  `outlet_id` int(10) DEFAULT NULL,
+  `status` int(10) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
