@@ -2,6 +2,5 @@ CREATE TABLE `outlet_master` (
   `id` int(10) DEFAULT NULL,
   `name` varchar(100) DEFAULT NULL,
   `description` varchar(255) DEFAULT NULL,
-  `address` varchar(255) DEFAULT NULL,
-  `user_id` int(10) DEFAULT NULL
+  `address` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
